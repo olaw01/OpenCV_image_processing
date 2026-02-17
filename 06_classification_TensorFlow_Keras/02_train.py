@@ -142,5 +142,5 @@ print('[INFO] Koniec')
 # Uruchamianie z poziomu terminala
 # cd ..
 # cd 06_classification_TensorFlow_Keras
-# ls -l
+# ls
 # python 02_train.py -e 15 / (15 epok)
