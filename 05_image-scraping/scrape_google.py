@@ -15,11 +15,11 @@ def download_images(query):
     arguments = {
         'keywords': query,
         'format': 'jpg',
-        'limit': 600,
+        'limit': 100,
         'print_urls': True,
         'size': 'medium',
         # 'aspect_ratio': 'square',
-        #'chromedriver': r'C:\Users\awawr\chrome-driver\chromedriver.exe'
+        'chromedriver': r'C:\Users\awawr\Documents\chromedriver-win64\chromedriver-win64\chromedriver.exe'
     }
 
     try:
@@ -28,10 +28,10 @@ def download_images(query):
         arguments = {
             'keywords': query,
             'format': 'jpg',
-            'limit': 600,
+            'limit': 100,
             'print_urls': True,
             'size': 'medium',
-            #'chromedriver': r'C:\Users\awawr\chrome-driver\chromedriver.exe'
+            'chromedriver': r'C:\Users\awawr\Documents\chromedriver-win64\chromedriver-win64\chromedriver.exe'
         }
         try:
             response.download(arguments)
